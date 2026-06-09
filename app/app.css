@@ -1,0 +1,212 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Alfa+Slab+One&family=Archivo+Black&family=Lexend:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Alfa+Slab+One&family=Lexend:wght@100..900&display=swap');
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
+  @media (max-width: 36em) {
+    max-width: rem(425px);
+    max-height: rem(664px);
+  }
+
+  @media (min-width: 48em) {
+    max-width: rem(768px);
+    max-height: rem(950px);
+  }
+
+  @media (min-width: 62em) {
+    max-width: rem(1024px);
+    max-height: rem(645px);
+  }
+
+  @media (min-width: 88em) {
+    max-width: rem(1440px);
+    max-height: rem(780px);
+  }
+
+  @media (min-width: 100em) {
+    max-width: rem(2560px);
+    max-height: rem(1440px);
+  }
+
+
+}
+
+.home-background {
+  background: linear-gradient(59deg, #177D82, #3CA6A5, #ebfffd);
+  position: relative;
+  color: white;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
+  @media (max-width: 36em) {
+    max-width: rem(425px);
+    min-height: rem(900px);
+    /* max-height: rem(664px); */
+    margin: 0 auto;
+  }
+
+  @media (min-width: 48em) {
+    max-width: rem(768px);
+    max-height: rem(960px);
+    min-height: rem(960px);
+    margin: 0 auto;
+  }
+
+  @media (min-width: 62em) {
+    max-width: rem(1024px);
+    min-height: rem(665px);
+    max-height: rem(665px);
+    margin: 0 auto;
+  }
+
+  @media (min-width: 88em) {
+    max-width: rem(1440px);
+    min-height: rem(780px);
+    max-height: rem(780px);
+  }
+
+  @media (min-width: 100em) {
+    min-height: rem(1290px);
+    min-width: rem(2560px);
+    max-width: rem(2560px);
+    max-height: rem(1440px);
+  }
+}
